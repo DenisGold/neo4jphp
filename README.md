@@ -3,19 +3,17 @@ Neo4jPHP
 Author: Josh Adell <josh.adell@gmail.com>  
 Copyright (c) 2011-2012
 
-PHP Wrapper for the Neo4j graph database REST interface
+PHP Wrapper for the Neo4j graph database REST interface. The latest version of the original project was apparently abandoned. This fork was made to make this library compatible with PHP 7.
 
 In-depth documentation and examples: http://github.com/jadell/neo4jphp/wiki
 
 API documentation: http://jadell.github.com/neo4jphp
 
-[![Build Status](https://secure.travis-ci.org/jadell/neo4jphp.png?branch=master)](http://travis-ci.org/jadell/neo4jphp)
-
 Install
 -------
 
 ### Using Composer
-1. From the command line `composer require "everyman/neo4jphp" "dev-master"`
+1. From the command line `composer require "heydavid713/neo4jphp" "dev-master"`
 1. In your PHP script `require("vendor/autoload.php");`
 
 Connection Test
@@ -84,6 +82,8 @@ Pull requests will not be accepted unless all tests pass and all code meets the 
 
 Changes
 -------
+0.1.1
+* PHP 7 compatibility.
 
 0.1.0
 

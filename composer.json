@@ -3,10 +3,10 @@
   "type": "library",
   "description": "Wrapper for the Neo4j graph database REST interface",
   "keywords": ["neo4j","graph","database"],
-  "homepage": "https://github.com/DenisGold/neo4jphp/wiki",
+  "homepage": "https://github.com/denisgold/neo4jphp/wiki",
   "license": "MIT",
   "authors": [
-    {"name": "Denis Stoliarchuk", "email": "dartius@mail.ru", "homepage": "https://github.com/DenisGold"}
+    {"name": "Denis Stoliarchuk", "email": "dartius@mail.ru", "homepage": "https://github.com/denisgold"}
   ],
   "require": {
     "php": ">=5.3.0",

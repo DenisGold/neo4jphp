@@ -53,8 +53,8 @@
 			<metadata>
 				<element name="version" value="${version}" />
 				<element name="authors">
-					<element name="Denis Stoliarchuk">
-						<element name="email" value="dartius@mail.ru" />
+					<element name="Josh Adell">
+						<element name="email" value="josh.adell@gmail.com" />
 					</element>
 				</element>
 			</metadata>

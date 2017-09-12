@@ -1,11 +1,11 @@
 Neo4jPHP
 ========
-Author: Josh Adell <josh.adell@gmail.com>  
-Copyright (c) 2011-2012
+Author: Denis Stoliarchuk <dartius@mail.ru>  
+Copyright (c) 2016-2017
 
 PHP Wrapper for the Neo4j graph database REST interface. The latest version of the original project was apparently abandoned. This fork was made to make this library compatible with PHP 7.
 
-In-depth documentation and examples: http://github.com/jadell/neo4jphp/wiki
+In-depth documentation and examples: http://github.com/denisgold/neo4jphp/wiki
 
 API documentation: http://jadell.github.com/neo4jphp
 
@@ -13,7 +13,7 @@ Install
 -------
 
 ### Using Composer
-1. From the command line `composer require "heydavid713/neo4jphp" "dev-master"`
+1. From the command line `composer require "denisgold/neo4jphp" "dev-master"`
 1. In your PHP script `require("vendor/autoload.php");`
 
 Connection Test
@@ -39,16 +39,16 @@ If you see your server's information, then you have successfully connected!
 
 Get Started
 -----------
-Full documentation on all the features of Neo4jPHP is available on the wiki: https://github.com/jadell/neo4jphp/wiki
+Full documentation on all the features of Neo4jPHP is available on the wiki: https://github.com/denisgold/neo4jphp/wiki
 
 
 Contributions
 -------------
-http://github.com/jadell/neo4jphp/graphs/contributors
+http://github.com/denisgold/neo4jphp/graphs/contributors
 
 All contributions are welcome! If you wish to contribute, please read the following guidelines:
 
-* Before implementing new features, [open an issue](https://github.com/jadell/neo4jphp/issues) describing the feature.
+* Before implementing new features, [open an issue](https://github.com/denisgold/neo4jphp/issues) describing the feature.
 * Include unit tests for any bug fixes or new features.
 * Include only one bug fix or new feature per pull request.
 * Make sure all unit tests run before submitting a pull request.
@@ -73,11 +73,6 @@ Run only style checker:
     > vendor/bin/phing cs
 
 Pull requests will not be accepted unless all tests pass and all code meets the existing style guidelines.
-
-### Special Thanks
-* Jacob Hansson <jacob@voltvoodoo.com> - Cypher query support
-* Nigel Small <nigel@nigelsmall.name> - GEOFF import/export
-  * [http://py2neo.org/](http://py2neo.org/)
 
 
 Changes
